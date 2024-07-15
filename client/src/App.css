@@ -1,5 +1,6 @@
 * {
-  box-sizing: border-box;
+  /* To get all the UI components same size (without exceeding one's length) */
+  box-sizing: border-box; 
 }
 
 body {
