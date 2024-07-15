@@ -1,1 +1,8 @@
 npm install express
+npm install -g nodemon (nodemon is used so when the project is saved after doing any change, it is updated instantly)
+npm install cors
+npm install mongoose
+npm install dotenv
+
+Start -> node index.js / nodemon index.js
+
