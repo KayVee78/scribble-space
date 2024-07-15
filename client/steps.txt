@@ -1,2 +1,4 @@
 npx create-react-app client -> Running the command by staying the root directory
-npm add react-router-dom -> for routing
+npm install react-router-dom -> for routing
+
+Start -> npm start
