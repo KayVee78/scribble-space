@@ -41,7 +41,10 @@ app.post("/login", async (req, res) => {
       //if token is generated, callback function is executed
       if (err) throw err;
       //a cookie named token is set with value
-      res.cookie("token", token).json("ok");
+      res.cookie("token", token).json({
+        id: userDoc._id,
+        username,
+      });
     });
   } else {
     res.status(400).json("Wrong credentials");
@@ -55,6 +58,10 @@ app.get("/profile", (req, res) => {
     if (err) throw err;
     res.json(info);
   });
+});
+
+app.post("/logout", (req, res) => {
+  res.cookie("token", "").json("ok"); //setting the cookie and empty string
 });
 
 app.listen(4000);
