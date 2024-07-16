@@ -7,13 +7,19 @@ export default function RegisterPage() {
   async function register(e) {
     e.preventDefault();
     //if we use fetch() we don't need to install axios
-    await fetch("http://localhost:4000/register", {
+    const response = await fetch("http://localhost:4000/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({ username, password }),
     });
+
+    if (response.status === 200) {
+      alert("Registration successful!");
+    } else {
+      alert("Registration failed!");
+    }
   }
 
   return (
