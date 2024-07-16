@@ -5,6 +5,7 @@ npm install mongoose
 npm install dotenv
 npm install bcrypt -> a library to hash passwords
 npm install jsonwebtoken -> to securely send data
+npm install cookie-parser
 
 Start -> node index.js / nodemon index.js
 
