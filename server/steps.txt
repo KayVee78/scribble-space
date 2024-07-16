@@ -3,6 +3,8 @@ npm install -g nodemon (nodemon is used so when the project is saved after doing
 npm install cors
 npm install mongoose
 npm install dotenv
+npm install bcrypt -> a library to hash passwords
+npm install jsonwebtoken -> to securely send data
 
 Start -> node index.js / nodemon index.js
 
