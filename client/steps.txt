@@ -1,4 +1,5 @@
 npx create-react-app client -> Running the command by staying the root directory
 npm install react-router-dom -> for routing
+npm install react-quill --save -> for rich text editor support
 
 Start -> npm start

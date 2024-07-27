@@ -6,6 +6,8 @@ npm install dotenv
 npm install bcrypt -> a library to hash passwords
 npm install jsonwebtoken -> to securely send data
 npm install cookie-parser
+npm install --save multer -> for image uploading
 
 Start -> node index.js / nodemon index.js
 
+Stopped 1:15
