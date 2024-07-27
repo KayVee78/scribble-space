@@ -1,6 +1,6 @@
 * {
   /* To get all the UI components same size (without exceeding one's length) */
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 body {
@@ -96,6 +96,7 @@ button {
   padding: 7px 0;
 }
 
-form h1{
+form.login h1,
+form.register h1 {
   text-align: center;
 }
