@@ -24,7 +24,6 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -54,17 +53,6 @@ A fully functional blog application built using the MERN stack, which includes M
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-### Prerequisites
-
-* Node.js
-  ```sh
-  Download and install from the official website of Node.js.
-  
-* MongoDB
-  ```sh
-  Download & install MongoDB via MongoDB Download Center (to be used locally) or create a MongoDB Atlas account.
-
 
 ### Installation
 
