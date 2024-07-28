@@ -88,9 +88,9 @@ A fully functional blog application built using the MERN stack, which includes M
    ```sh
    nodemon index.js
    ```
+![Screenshot 2024-07-28 122221](https://github.com/user-attachments/assets/ccc9cf8f-922e-4613-936a-d909279f40fa)
 ![Screenshot 2024-07-28 122044](https://github.com/user-attachments/assets/18890e49-2b5d-4e30-b21b-a4613280b96e)
 ![Screenshot 2024-07-28 122136](https://github.com/user-attachments/assets/db63d316-11ed-4aba-89d0-21f23bb95d2c)
-![Screenshot 2024-07-28 122221](https://github.com/user-attachments/assets/ccc9cf8f-922e-4613-936a-d909279f40fa)
 ![scribble](https://github.com/user-attachments/assets/1b93e1a8-b883-4367-a73f-b1e614f346a2)
 
 
